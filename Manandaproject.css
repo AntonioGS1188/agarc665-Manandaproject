@@ -243,21 +243,34 @@ footer a:hover {
   color: #fff;
 }
 .social-links {
-  margin-top: 1.5em;
+  text-align: center;
+  margin: 1em;
 }
 
 .social-btn {
   display: inline-block;
-  margin: 0.5em;
+  margin: 0 0.5em;
   padding: 0.5em 1em;
   background-color: #dec6a0;
   color: #542e08;
   text-decoration: none;
   border-radius: 6px;
   font-weight: bold;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 .social-btn:hover {
   background-color: chocolate;
   color: #fff;
+}
+.videocolumn {
+  flex: 1;
+  text-align: center;
+}
+
+.videocolumn video {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
